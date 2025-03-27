@@ -109,7 +109,7 @@ Veamos:
 - Entramos dentro de la carpeta del proyecto.
 - Hacemos una copia del fichero sample.env en un fichero llamado .env.
 
-![](images/Imagen1.png)
+![](images/Imagen2.1.png)
 
 Démonos cuenta que este fichero es el que contiene las variables que se van a utilizar en las diferentes máquinas que vamos a crear. si lo abrimos, tiene este aspecto: 
 
@@ -176,7 +176,7 @@ MYSQL_PASSWORD=docker
 MYSQL_DATABASE=docker
 ~~~
 
-![](images/Imagen2.png)
+![](images/Imagen2.2.png)
 
 Podemos ver como dentro de las variables que se crean aquí, muchas de ellas tienen que ver con versiones, rutas, y nombres y otras con contraseñas.
 Podemos cambiar aquí, entre otras cosas, la versión de PHP y BBDD a utilizar, que por defecto está la 8.3 de PHP y mySQL8 como BBDD. También, si lo deseamos las rutas del servidor web, archivos de configuración, certificados, bases de datos, etc...
@@ -190,10 +190,12 @@ Por otra parte tenemos también los puertos que utilizarán las máquinas y las 
 >	- BBDD
 >	- Usuario de BBDD
 
+![](images/Imagen2.3.png)
+
 Aquí finalizaría la configuración de nuestro escenario multicontenedor. Seguimos con pasos:
 - Levantar el escenario con docker-compose up -d
 
-  ![](images/Imagen3.png)
+  ![](images/Imagen2.4.png)
 
 ... pero antes, veamos el archivos docker-compose.yml para comprobar que:
 
@@ -209,7 +211,7 @@ docker-compose up -d
 ~~~
 
 Y si todo va bien, tendremos nuestro escenario levantado:
-![](images/composeup.png)
+![](images/Imagen2.5.png)
 
 
 > Para 
