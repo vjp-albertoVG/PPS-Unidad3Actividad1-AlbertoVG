@@ -49,38 +49,37 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >>
 >---
 >
->> **bWAPP**. A esta máquina accedemos a través del puerto **8002**. 
+>> **bWAPP**. A esta máquina accedemos a través del puerto **8001**. 
 >>
->> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/bwapp1.png)
+>> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/Imagen1.6.png)
 >>
->> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php> ![](images/bwapp2.png)
+>> Por lo tanto accedemos a crearla: <http://localhost:8001/install.php> ![](images/Imagen1.7.png)
 >>
 >> Y ya podremos acceder pulsando en login o creando un nuevo usuario. Las credenciales de acceso por defecto son usuario: bee, contraseña: bug y podemos seleccionar en este momento el **nivel de seguridad** que queremos que tenga la máquina.
 >>
->> ![](images/bwapp3.png)
->> ![](images/bwapp4.png)
+>> ![](images/Imagen1.8.png)
 >>
 >> Y después de acceder podremos realizar un gran número de entrenamientos de explotación de vulnerabilidades.
 >>
->> ![](images/bwapp5.png)
+>> ![](images/Imagen1.9.png)
 >---
 >
->> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80** o del **8080**. 
+>> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80**. 
 >>
->> Por lo tanto accedemos a ella en el enlace: <http://localhost>. ![](images/multill1.png)
+>> Por lo tanto accedemos a ella en el enlace: <http://localhost/database-offline.php>. ![](images/Imagen1.10.png)
 >>
 >> Al igual que en los casos anteriores, el primer paso será crear la Base de Datos. 
 >>
->> ![](images/multill12.png)
+>> ![](images/Imagen1.11.png)
 >>
 >> En este caso no necesitamos usuario y contraseña para acceder.
 >> 
 >> En multillidae tenemos además del servicio de BBDD otros servicios creados:
 >> - Servicio PhpAdmin para acceder a las BBDD. Accedemos desde <http://localhost:81>. 
->> ![](images/multill3.png)
+>> ![](images/Imagen1.12.png)
 >>
 >> - Servicio PhpLdapAdmin para acceder al servicio de directorio LDAP. Accedemos desde <http://localhost:82>. 
->> ![](images/multill4.png)
+>> ![](images/Imagen1.13.png)
 
 
 ## Entorno de pruebas
